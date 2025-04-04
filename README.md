@@ -79,4 +79,27 @@
 1. **Clone this repository:**
 
    ```bash
-   git clone https://github.com/yourusername/BOSS-BUY.git
+   git clone https://github.com/yourusername/E-Commerce-Website.git
+
+2. **Move the project folder:**
+   
+- Copy the project folder to your server's document root. For example:
+- For XAMPP: htdocs.
+
+3. **Import the database:**
+   
+- Open phpMyAdmin in your browser.
+- Create a new database (e.g., projtest).
+- Import the projtest.sql file provided in the repository into the new database.
+
+4. **Configure the database connection:**
+   
+- Open admin.php and other necessary PHP files.
+- Update the database connection details (server, username, password, dbname) to match your server configuration.
+
+5. **Start the server and access the project:**
+   
+- Launch your local server environment.
+- Navigate to the project in your browser:
+- [http://localhost/BOSS-BUY](http://localhost/BOSS-BUY)
+
